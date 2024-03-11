@@ -31,15 +31,6 @@ else:
     print('Неверно')
 
 
-print('Как зовут главных героев компьюерной игры Minecraft?')
-x = input('Имя первого героя: ')
-y = input('Имя второго героя: ')
-if ('STEAVE' in x.upper() or 'JANE' in x.upper()) and ('STEAVE' in y.upper() or 'JANE' in y.upper()) and x != y:
-    print('Верно')
-else:
-    print('Неверно')
-
-
 x, y = map(int, input().split())
 if x > y:
     print(y)
@@ -130,3 +121,10 @@ else:
                     print('ирландский волкодав')
                 else:
                     print('ньюфаундленд')
+
+
+x = int(input())
+if x % 2 == 0:
+    print('да')
+else:
+    print('нет')
